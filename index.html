@@ -1,41 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mfc Boilerplate</title>
-	<meta name="theme-color" content="#009688">
-	<link rel="shortcut icon" href="res/img/favicon.png">
-	<link rel="icon" sizes="512x512" href="res/img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="res/css/framework.css">
-	<link rel="stylesheet" type="text/css" href="res/css/style.css">
+
+  <meta property="og:title" content="Mochappucinno Studio">
+  <meta property="og:site_name" content="Mochappucinno Studio">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Mochappucinno Studio oleh Mfc">
+  <meta property="og:image" content="https://mf-chan.com/og.jpg">
+
+  <link rel="icon" type="image/x-icon" href="res/img/favicon.png">
+  <title>Mochappucinno Studio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="res/css/style.css">
+
+  <script>
+    window.onload = function () {
+      alert("Website ini masih dalam tahap pengembangan.");
+    }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131278165-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-131278165-1');
+  </script>
 </head>
+
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand">
-					<img alt="Logo" src="res/img/favicon.png">
-					<span>Mfc Boilerplate</span>
-				</a>
-			</div>
-		</div>
-	</nav>
-	<div class="container">
-		<div class="page-header">
-			<h1>Hello world!</h1>
-		</div>
-		<div class="row">
-			<div class="col-sm-8">
-				<p><strong>Mfc Boilerplate is ready!</strong> <i class="far fa-thumbs-up"></i></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae magni provident corrupti in doloremque voluptates officiis voluptatem, temporibus corporis quisquam id labore nulla voluptatum excepturi. Itaque ea ipsam quaerat!</p>
-			</div>
-		</div><hr>
-		<span class="copyright">
-			<strong>Mochappucinno Studio</strong> &copy; 2018 - right now
-		</span>
-	</div>
-	<script src="res/js/jquery.min.js"></script>
-	<script src="res/js/bootstrap.min.js"></script>
+  <div class="scroll-indicator">
+    <div id="bar"></div>
+  </div>
+  <header class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <span>Mochappucinno Studio</span>
+      </div>
+      <div class="col-md-6">
+
+      </div>
+    </div>
+  </header>
+
+  <footer class="container">
+    <div class="row">
+      <div class="col-sm-6 copyright">
+        <a href="https://mf-chan.com" target="_blank">Mfc</a> &copy;
+        <script>
+          if (new Date().getFullYear() > 2018) {
+            document.write('2018 - ' + new Date().getFullYear());
+          } else {
+            document.write(new Date().getFullYear());
+          }
+        </script>
+      </div>
+      <div class="col-sm-6 license">
+        Laman daring ini berlisensi <a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/95849a279d.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script src="res/js/script.js"></script>
 </body>
+
 </html>
